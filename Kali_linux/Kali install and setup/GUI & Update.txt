@@ -1,0 +1,14 @@
+Kali linux update and upgrade
+sudo  apt update && sudo apt upgrade -y
+
+GUI 환경 Xfce설치
+sudo apt install kali-desktop-xfce -y
+
+Kali linux 기본 tool 설치
+sudo apt install kali-linux-default
+
+xrdp 설치
+sudo apt install xrdp -y
+
+xrdp 서비스 실행
+sudo  service xrdp start
