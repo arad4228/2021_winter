@@ -24,7 +24,7 @@
     {
         "module": "[lib]/libcpp_w.l",
         "size": {
-            ".text": 66862,
+            ".text": 67300,
             ".data": 0,
             ".bss": 2961,
             ".text-delta": 0,
@@ -68,10 +68,10 @@
     {
         "module": "main.o",
         "size": {
-            ".text": 2488,
+            ".text": 3047,
             ".data": 0,
             ".bss": 4021,
-            ".text-delta": 0,
+            ".text-delta": -2,
             ".data-delta": 0,
             ".bss-delta": 0
         }
@@ -134,7 +134,7 @@
     {
         "module": "mbed-os/features",
         "size": {
-            ".text": 32420,
+            ".text": 31934,
             ".data": 0,
             ".bss": 0,
             ".text-delta": 0,
@@ -156,9 +156,9 @@
     {
         "module": "mbed-os/platform",
         "size": {
-            ".text": 7430,
-            ".data": 80,
-            ".bss": 384,
+            ".text": 6582,
+            ".data": 64,
+            ".bss": 344,
             ".text-delta": 0,
             ".data-delta": 0,
             ".bss-delta": 0
@@ -178,7 +178,7 @@
     {
         "module": "mbed-os/targets",
         "size": {
-            ".text": 16703,
+            ".text": 15847,
             ".data": 4,
             ".bss": 1122,
             ".text-delta": 0,
@@ -199,10 +199,10 @@
     },
     {
         "summary": {
-            "static_ram": 18561,
+            "static_ram": 18505,
             "static_ram_delta": 0,
-            "total_flash": 184402,
-            "total_flash_delta": 0
+            "total_flash": 183193,
+            "total_flash_delta": -2
         }
     }
 ]
