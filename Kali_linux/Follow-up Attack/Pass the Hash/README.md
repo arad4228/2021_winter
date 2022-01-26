@@ -1,7 +1,9 @@
 ### Pass the Hash attack
 </br>
-# Password에 대한 hash값을 사용하는 환경(NTLM/LM 인증 프로토콜을 사용하는 환경)에서, 획득한 hash 값을 사용하여 인증을 통과하는 공격 (사용자의 실제 Password는 몰라도 됨)
-</br></br>
+# Password에 대한 hash값을 사용하는 환경(NTLM/LM 인증 프로토콜을 사용하는 환경)에서, 획득한 hash 값을 사용하여 인증을 통과하는 공격 
+(사용자의 실제 Password는 몰라도 됨)
+</br>
+
 ## Mechanism
 NTLM/LM 인증을 사용하는 서버/서비스는 해시로 암호를 제공
 cleartext 암호는 원격 서버를 전송하기전에 해시로 전환
@@ -9,6 +11,7 @@ cleartext 암호는 원격 서버를 전송하기전에 해시로 전환
 기능적으로 해시는 원래 암호와 동일
 → Complete network 인증올 완료하는데에는 hash만 있으면 된다.
 </br>
+
 ## Pass-the-Hash 공격 과정
 1. 시스템에 침투
 2. 시스템의 보호된 자원에 접근할 수 있는 권한 획득
