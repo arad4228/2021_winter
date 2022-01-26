@@ -2,14 +2,14 @@
 </br>
 # Password에 대한 hash값을 사용하는 환경(NTLM/LM 인증 프로토콜을 사용하는 환경)에서, 획득한 hash 값을 사용하여 인증을 통과하는 공격 (사용자의 실제 Password는 몰라도 됨)
 </br>
-# Mechanism
+## Mechanism
 NTLM/LM 인증을 사용하는 서버/서비스는 해시로 암호를 제공
 cleartext 암호는 원격 서버를 전송하기전에 해시로 전환
 인증을 완료하는데에 Cleartext 암호는 필요하지 않음
 기능적으로 해시는 원래 암호와 동일
 → Complete network 인증올 완료하는데에는 hash만 있으면 된다.
 </br>
-# Pass-the-Hash 공격 과정
+## Pass-the-Hash 공격 과정
 1. 시스템에 침투
 2. 시스템의 보호된 자원에 접근할 수 있는 권한 획득
 3. 메모리 상에 있는 Password Hash값 수집
@@ -19,7 +19,7 @@ cleartext 암호는 원격 서버를 전송하기전에 해시로 전환
 
 # 따라서 우리는 'Pass the Hash' 공격을 하기위해 다음과 같은 모듈을 사용할 것이다.
 
-# Metasploit PsExec
+## Metasploit PsExec
 → PSExec 모듈은 암호학적 개인정보를 이미 알고있는 특정 시스템에 대한 접근을 얻기 위해 침투테스터에 의해 사용된다.
 
 # Metasploit PsExec를 사용하기 위해 필요한 것
