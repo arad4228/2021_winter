@@ -1,5 +1,5 @@
 ### Pass the Hash attack
-</br></br>
+</br>
 # Password에 대한 hash값을 사용하는 환경(NTLM/LM 인증 프로토콜을 사용하는 환경)에서, 획득한 hash 값을 사용하여 인증을 통과하는 공격 (사용자의 실제 Password는 몰라도 됨)
 </br>
 # Mechanism
