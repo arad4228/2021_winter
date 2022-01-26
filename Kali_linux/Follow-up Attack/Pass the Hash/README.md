@@ -1,6 +1,6 @@
-### Pass the Hash attack
+# Pass the Hash attack
 </br>
-# Password에 대한 hash값을 사용하는 환경(NTLM/LM 인증 프로토콜을 사용하는 환경)에서, 획득한 hash 값을 사용하여 인증을 통과하는 공격 
+### Password에 대한 hash값을 사용하는 환경(NTLM/LM 인증 프로토콜을 사용하는 환경)에서, 획득한 hash 값을 사용하여 인증을 통과하는 공격 
 (사용자의 실제 Password는 몰라도 됨)
 </br>
 
@@ -22,10 +22,10 @@ cleartext 암호는 원격 서버를 전송하기전에 해시로 전환
 
 # 따라서 우리는 'Pass the Hash' 공격을 하기위해 다음과 같은 모듈을 사용할 것이다.
 
-## Metasploit PsExec
+### Metasploit PsExec
 → PSExec 모듈은 암호학적 개인정보를 이미 알고있는 특정 시스템에 대한 접근을 얻기 위해 침투테스터에 의해 사용된다.
 
-# Metasploit PsExec를 사용하기 위해 필요한 것
+## Metasploit PsExec를 사용하기 위해 필요한 것
 1. 타겟 IP
 2. 타겟 시스템의 username
 3. Password Hash(or Password)
@@ -36,7 +36,7 @@ cleartext 암호는 원격 서버를 전송하기전에 해시로 전환
 → 미터프리터를 사용한다!
 </br>
 
-### Meterpreter
+# Meterpreter
 winXP의 해쉬 암호를 모을 때 우리는 'Meterpreter' 라는 Payload의 모음을 사용할 것이다. (미터프리터 내장기능에 pass the hash 공격이 포함되어있다.)
 </br>
 
