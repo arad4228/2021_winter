@@ -2,6 +2,7 @@
 </br>
 ### Password에 대한 hash값을 사용하는 환경(NTLM/LM 인증 프로토콜을 사용하는 환경)에서, 획득한 hash 값을 사용하여 인증을 통과하는 공격 
 (사용자의 실제 Password는 몰라도 됨)
+![](https://github.com/arad4228/2021_winter/blob/main/Kali_linux/Follow-up%20Attack/Pass%20the%20Hash/passwordA.png)
 </br>
 
 ## Mechanism
