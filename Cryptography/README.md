@@ -11,5 +11,6 @@ https://blog.naver.com/jkj991011/222638880815
 ### 5 주차, 6주차(Hash) 관련 정리 링크
 https://velog.io/@arad4228/6.-Hash-Function  
 ### 7주차 (MAC) 관련 정리 링크
-https://velog.io/@arad4228/7.-Message-Authentication-Codes
+https://velog.io/@arad4228/7.-Message-Authentication-Codes  
 ### 7주차 (Authenticated Encryption and KDF) 관련 정리 링크
+https://velog.io/@arad4228/8.-Authenticated-Encryption-and-KDF  
