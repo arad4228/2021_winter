@@ -8,5 +8,5 @@ https://blog.naver.com/jkj991011/222626954793
 https://blog.naver.com/jkj991011/222637042074  
 ### 5 주차(Operation) 관련 정리 링크
 https://blog.naver.com/jkj991011/222638880815  
-### 5 주차(Hash), 6주차 관련 정리 링크
+### 5 주차, 6주차(Hash) 관련 정리 링크
 https://velog.io/@arad4228/6.-Hash-Function  
