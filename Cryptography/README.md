@@ -23,3 +23,5 @@ https://velog.io/@arad4228/11.Authentication
 ### 13주차 (Key Agreement Protocol) 관련 정리 링크
 https://velog.io/@arad4228/12.-Key-Agreement-Protocols
 ### 14주차 (TLS) 관련 내용은 앞의 내용과 유사하고 동일하므로 정리 파일만 올리는 것으로 대체할 것이다.
+
+# 이로써 암호학 정리를 3월 1일에 마무리하였습니다.
